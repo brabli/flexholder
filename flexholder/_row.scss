@@ -142,43 +142,6 @@
     @extend %stretch;
 }
 
-// Row Evenly / Even
-%flex-row-even-top,
-%flex-row-top-even,
-%flex-row-evenly-top,
-%flex-row-top-evenly {
-    @extend %flex-row;
-    @extend %even;
-    @extend %row-top;
-}
-
-%flex-row-even-bottom,
-%flex-row-bottom-even,
-%flex-row-evenly-bottom,
-%flex-row-bottom-evenly {
-    @extend %flex-row;
-    @extend %even;
-    @extend %row-bottom;
-}
-
-%flex-row-even-baseline,
-%flex-row-baseline-even,
-%flex-row-evenly-baseline,
-%flex-row-baseline-evenly {
-    @extend %flex-row;
-    @extend %even;
-    @extend %baseline;
-}
-
-%flex-row-even-stretch,
-%flex-row-stretch-even,
-%flex-row-evenly-stretch,
-%flex-row-stretch-evenly {
-    @extend %flex-row;
-    @extend %even;
-    @extend %stretch;
-}
-
 // Row Around / Gap
 %flex-row-gap-top,
 %flex-row-top-gap,
@@ -213,5 +176,42 @@
 %flex-row-stretch-around {
     @extend %flex-row;
     @extend %gap;
+    @extend %stretch;
+}
+
+// Row Evenly / Even
+%flex-row-even-top,
+%flex-row-top-even,
+%flex-row-evenly-top,
+%flex-row-top-evenly {
+    @extend %flex-row;
+    @extend %even;
+    @extend %row-top;
+}
+
+%flex-row-even-bottom,
+%flex-row-bottom-even,
+%flex-row-evenly-bottom,
+%flex-row-bottom-evenly {
+    @extend %flex-row;
+    @extend %even;
+    @extend %row-bottom;
+}
+
+%flex-row-even-baseline,
+%flex-row-baseline-even,
+%flex-row-evenly-baseline,
+%flex-row-baseline-evenly {
+    @extend %flex-row;
+    @extend %even;
+    @extend %baseline;
+}
+
+%flex-row-even-stretch,
+%flex-row-stretch-even,
+%flex-row-evenly-stretch,
+%flex-row-stretch-evenly {
+    @extend %flex-row;
+    @extend %even;
     @extend %stretch;
 }
