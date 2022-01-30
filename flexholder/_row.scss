@@ -27,17 +27,19 @@
     @extend %row-bottom;
 }
 
-%flex-row-between,
-%flex-row-spread {
+%flex-row-spread,
+%flex-row-between {
     @extend %flex-row;
     @extend %between;
 }
 
+%flex-row-gap,
 %flex-row-around {
     @extend %flex-row;
     @extend %around;
 }
 
+%flex-row-even,
 %flex-row-evenly {
     @extend %flex-row;
     @extend %evenly;
@@ -177,39 +179,39 @@
     @extend %stretch;
 }
 
-// Row Around / Close
-%flex-row-close-top,
-%flex-row-top-close,
+// Row Around / Gap
+%flex-row-gap-top,
+%flex-row-top-gap,
 %flex-row-around-top,
 %flex-row-top-around {
     @extend %flex-row;
-    @extend %close;
+    @extend %gap;
     @extend %row-top;
 }
 
-%flex-row-close-bottom,
-%flex-row-bottom-close,
+%flex-row-gap-bottom,
+%flex-row-bottom-gap,
 %flex-row-around-bottom,
 %flex-row-bottom-around {
     @extend %flex-row;
-    @extend %close;
+    @extend %gap;
     @extend %row-bottom;
 }
 
-%flex-row-close-baseline,
-%flex-row-baseline-close,
+%flex-row-gap-baseline,
+%flex-row-baseline-gap,
 %flex-row-around-baseline,
 %flex-row-baseline-around {
     @extend %flex-row;
-    @extend %close;
+    @extend %gap;
     @extend %baseline;
 }
 
-%flex-row-close-stretch,
-%flex-row-stretch-close,
+%flex-row-gap-stretch,
+%flex-row-stretch-gap,
 %flex-row-around-stretch,
 %flex-row-stretch-around {
     @extend %flex-row;
-    @extend %close;
+    @extend %gap;
     @extend %stretch;
 }
