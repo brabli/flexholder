@@ -45,6 +45,16 @@
     @extend %evenly;
 }
 
+%flex-row-baseline {
+    @extend %flex-row;
+    @extend %baseline;
+}
+
+%flex-row-stretch {
+    @extend %flex-row;
+    @extend %stretch;
+}
+
 // Combos
 
 // Row Left
