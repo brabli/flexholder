@@ -1,7 +1,6 @@
 /*
     BASE PLACEHOLDERS
 */
-
 %flex                  { display: flex }
 
 %row                   { flex-direction: row }
@@ -13,27 +12,35 @@
 %row-centre            { justify-content: center }
 %col-centre            { align-items: center }
 
+/*
+    ROWS
+*/
 // Applies to both row and rowrev
 %row-top               { align-items: flex-start }
 %row-bottom            { align-items: flex-end }
-
+// row specific
 %row-left              { justify-content: flex-start }
 %row-right             { justify-content: flex-end }
+// rowrev specific
 %rowrev-left           { justify-content: flex-end }
 %rowrev-right          { justify-content: flex-start }
 
+/*
+    COLS
+*/
 // Applies to both col and colrev
 %col-left              { align-items: flex-start }
 %col-right             { align-items: flex-end }
-
+// col specific
 %col-top               { justify-content: flex-start }
 %col-bottom            { justify-content: flex-end }
+// colrev specific
 %colrev-top            { justify-content: flex-end }
 %colrev-bottom         { justify-content: flex-start }
 
 // Others
 %between, %spread      { justify-content: space-between }
+%around,  %gap         { justify-content: space-around }
 %evenly,  %even        { justify-content: space-evenly }
-%around,  %close       { justify-content: space-around }
 %baseline              { align-items: baseline }
 %stretch               { align-items: stretch; }
