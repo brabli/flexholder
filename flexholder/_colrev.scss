@@ -1,0 +1,225 @@
+@forward './base';
+
+%flex-colrev {
+    @extend %flex;
+    @extend %colrev;
+    @extend %row-centre;
+    @extend %col-centre;
+}
+
+%flex-colrev-left {
+    @extend %flex-colrev;
+    @extend %col-left;
+}
+
+%flex-colrev-right {
+    @extend %flex-colrev;
+    @extend %col-right;
+}
+
+%flex-colrev-top {
+    @extend %flex-colrev;
+    @extend %colrev-top;
+}
+
+%flex-colrev-bottom {
+    @extend %flex-colrev;
+    @extend %colrev-bottom;
+}
+
+%flex-colrev-spread,
+%flex-colrev-between {
+    @extend %flex-colrev;
+    @extend %spread;
+}
+
+%flex-colrev-gap,
+%flex-colrev-around {
+    @extend %flex-colrev;
+    @extend %gap;
+}
+
+%flex-colrev-even,
+%flex-colrev-evenly {
+    @extend %flex-colrev;
+    @extend %even;
+}
+
+%flex-colrev-baseline {
+    @extend %flex-colrev;
+    @extend %baseline;
+}
+
+%flex-colrev-stretch {
+    @extend %flex-colrev;
+    @extend %stretch;
+}
+
+// Col Top
+%flex-colrev-top-left,
+%flex-colrev-left-top {
+    @extend %flex-colrev;
+    @extend %col-left;
+    @extend %colrev-top;
+}
+
+%flex-colrev-top-right,
+%flex-colrev-right-top {
+    @extend %flex-colrev;
+    @extend %col-right;
+    @extend %colrev-top;
+}
+
+%flex-colrev-top-baseline,
+%flex-colrev-baseline-top {
+    @extend %flex-colrev;
+    @extend %baseline;
+    @extend %colrev-top;
+}
+
+%flex-colrev-top-stretch,
+%flex-colrev-stretch-top {
+    @extend %flex-colrev;
+    @extend %stretch;
+    @extend %colrev-top;
+}
+
+// Col Bottom
+%flex-colrev-bottom-left,
+%flex-colrev-left-bottom {
+    @extend %flex-colrev;
+    @extend %col-left;
+    @extend %colrev-bottom;
+}
+
+%flex-colrev-bottom-right,
+%flex-colrev-right-bottom {
+    @extend %flex-colrev;
+    @extend %col-right;
+    @extend %colrev-bottom;
+}
+
+%flex-colrev-bottom-baseline,
+%flex-colrev-baseline-bottom {
+    @extend %flex-colrev;
+    @extend %baseline;
+    @extend %colrev-bottom;
+}
+
+%flex-colrev-bottom-stretch,
+%flex-colrev-stretch-bottom {
+    @extend %flex-colrev;
+    @extend %stretch;
+    @extend %colrev-bottom;
+}
+
+// Col Between / Spread
+%flex-colrev-spread-left,
+%flex-colrev-left-spread,
+%flex-colrev-between-left,
+%flex-colrev-left-between {
+    @extend %flex-colrev;
+    @extend %col-left;
+    @extend %spread;
+}
+
+%flex-colrev-spread-right,
+%flex-colrev-right-spread,
+%flex-colrev-between-right,
+%flex-colrev-right-between {
+    @extend %flex-colrev;
+    @extend %col-right;
+    @extend %spread;
+}
+
+%flex-colrev-spread-baseline,
+%flex-colrev-baseline-spread,
+%flex-colrev-between-baseline,
+%flex-colrev-baseline-between {
+    @extend %flex-colrev;
+    @extend %baseline;
+    @extend %spread;
+}
+
+%flex-colrev-spread-stretch,
+%flex-colrev-stretch-spread,
+%flex-colrev-between-stretch,
+%flex-colrev-stretch-between {
+    @extend %flex-colrev;
+    @extend %stretch;
+    @extend %spread;
+}
+
+// Col Around / Gap
+%flex-colrev-gap-left,
+%flex-colrev-left-gap,
+%flex-colrev-around-left,
+%flex-colrev-left-around {
+    @extend %flex-colrev;
+    @extend %col-left;
+    @extend %gap;
+}
+
+%flex-colrev-gap-right,
+%flex-colrev-right-gap,
+%flex-colrev-around-right,
+%flex-colrev-right-around {
+    @extend %flex-colrev;
+    @extend %col-right;
+    @extend %gap;
+}
+
+%flex-colrev-gap-baseline,
+%flex-colrev-baseline-gap,
+%flex-colrev-around-baseline,
+%flex-colrev-baseline-around {
+    @extend %flex-colrev;
+    @extend %baseline;
+    @extend %gap;
+}
+
+%flex-colrev-gap-stretch,
+%flex-colrev-stretch-gap,
+%flex-colrev-around-stretch,
+%flex-colrev-stretch-around {
+    @extend %flex-colrev;
+    @extend %stretch;
+    @extend %gap;
+}
+
+// Col Evenly / Even
+%flex-colrev-even-left,
+%flex-colrev-left-even,
+%flex-colrev-evenly-left,
+%flex-colrev-left-evenly {
+    @extend %flex-colrev;
+    @extend %col-left;
+    @extend %even;
+}
+
+%flex-colrev-even-right,
+%flex-colrev-right-even,
+%flex-colrev-evenly-right,
+%flex-colrev-right-evenly {
+    @extend %flex-colrev;
+    @extend %col-right;
+    @extend %even;
+}
+
+%flex-colrev-even-baseline,
+%flex-colrev-baseline-even,
+%flex-colrev-evenly-baseline,
+%flex-colrev-baseline-evenly {
+    @extend %flex-colrev;
+    @extend %baseline;
+    @extend %even;
+}
+
+%flex-colrev-even-stretch,
+%flex-colrev-stretch-even,
+%flex-colrev-evenly-stretch,
+%flex-colrev-stretch-evenly {
+    @extend %flex-colrev;
+    @extend %stretch;
+    @extend %even;
+}
