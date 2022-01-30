@@ -1,0 +1,215 @@
+@forward './base';
+
+%flex-row {
+    @extend %flex;
+    @extend %row;
+    @extend %row-centre;
+    @extend %col-centre;
+}
+
+%flex-row-left {
+    @extend %flex-row;
+    @extend %row-left;
+}
+
+%flex-row-right {
+    @extend %flex-row;
+    @extend %row-right;
+}
+
+%flex-row-top {
+    @extend %flex-row;
+    @extend %row-top;
+}
+
+%flex-row-bottom {
+    @extend %flex-row;
+    @extend %row-bottom;
+}
+
+%flex-row-between,
+%flex-row-spread {
+    @extend %flex-row;
+    @extend %between;
+}
+
+%flex-row-around {
+    @extend %flex-row;
+    @extend %around;
+}
+
+%flex-row-evenly {
+    @extend %flex-row;
+    @extend %evenly;
+}
+
+// Combos
+
+// Row Left
+%flex-row-left-top,
+%flex-row-top-left {
+    @extend %flex-row;
+    @extend %row-left;
+    @extend %row-top;
+}
+
+%flex-row-left-bottom,
+%flex-row-bottom-left {
+    @extend %flex-row;
+    @extend %row-left;
+    @extend %row-bottom;
+}
+
+%flex-row-left-baseline,
+%flex-row-baseline-left {
+    @extend %flex-row;
+    @extend %row-left;
+    @extend %baseline;
+}
+
+%flex-row-left-stretch,
+%flex-row-stretch-left {
+    @extend %flex-row;
+    @extend %row-left;
+    @extend %stretch;
+}
+
+// Row Right
+%flex-row-right-top,
+%flex-row-top-right {
+    @extend %flex-row;
+    @extend %row-right;
+    @extend %row-top;
+}
+
+%flex-row-right-bottom,
+%flex-row-bottom-right {
+    @extend %flex-row;
+    @extend %row-right;
+    @extend %row-bottom;
+}
+
+%flex-row-right-baseline,
+%flex-row-baseline-right {
+    @extend %flex-row;
+    @extend %row-right;
+    @extend %baseline;
+}
+
+%flex-row-right-stretch,
+%flex-row-stretch-right {
+    @extend %flex-row;
+    @extend %row-right;
+    @extend %stretch;
+}
+
+// Row Between / Spread
+%flex-row-spread-top,
+%flex-row-top-spread,
+%flex-row-between-top,
+%flex-row-top-between {
+    @extend %flex-row;
+    @extend %spread;
+    @extend %row-top;
+}
+
+%flex-row-spread-bottom,
+%flex-row-bottom-spread,
+%flex-row-between-bottom,
+%flex-row-bottom-between {
+    @extend %flex-row;
+    @extend %spread;
+    @extend %row-bottom;
+}
+
+%flex-row-spread-baseline,
+%flex-row-baseline-spread,
+%flex-row-between-baseline,
+%flex-row-baseline-between {
+    @extend %flex-row;
+    @extend %spread;
+    @extend %baseline;
+}
+
+%flex-row-spread-stretch,
+%flex-row-stretch-spread,
+%flex-row-between-stretch,
+%flex-row-stretch-between {
+    @extend %flex-row;
+    @extend %spread;
+    @extend %stretch;
+}
+
+// Row Evenly / Even
+%flex-row-even-top,
+%flex-row-top-even,
+%flex-row-evenly-top,
+%flex-row-top-evenly {
+    @extend %flex-row;
+    @extend %even;
+    @extend %row-top;
+}
+
+%flex-row-even-bottom,
+%flex-row-bottom-even,
+%flex-row-evenly-bottom,
+%flex-row-bottom-evenly {
+    @extend %flex-row;
+    @extend %even;
+    @extend %row-bottom;
+}
+
+%flex-row-even-baseline,
+%flex-row-baseline-even,
+%flex-row-evenly-baseline,
+%flex-row-baseline-evenly {
+    @extend %flex-row;
+    @extend %even;
+    @extend %baseline;
+}
+
+%flex-row-even-stretch,
+%flex-row-stretch-even,
+%flex-row-evenly-stretch,
+%flex-row-stretch-evenly {
+    @extend %flex-row;
+    @extend %even;
+    @extend %stretch;
+}
+
+// Row Around / Close
+%flex-row-close-top,
+%flex-row-top-close,
+%flex-row-around-top,
+%flex-row-top-around {
+    @extend %flex-row;
+    @extend %close;
+    @extend %row-top;
+}
+
+%flex-row-close-bottom,
+%flex-row-bottom-close,
+%flex-row-around-bottom,
+%flex-row-bottom-around {
+    @extend %flex-row;
+    @extend %close;
+    @extend %row-bottom;
+}
+
+%flex-row-close-baseline,
+%flex-row-baseline-close,
+%flex-row-around-baseline,
+%flex-row-baseline-around {
+    @extend %flex-row;
+    @extend %close;
+    @extend %baseline;
+}
+
+%flex-row-close-stretch,
+%flex-row-stretch-close,
+%flex-row-around-stretch,
+%flex-row-stretch-around {
+    @extend %flex-row;
+    @extend %close;
+    @extend %stretch;
+}

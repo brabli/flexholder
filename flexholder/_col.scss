@@ -1,0 +1,44 @@
+@forward './base';
+
+%flex-col {
+    @extend %flex;
+    @extend %col;
+    @extend %row-centre;
+    @extend %col-centre;
+}
+
+%flex-col-left {
+    @extend %flex-col;
+    @extend %col-left;
+}
+
+%flex-col-right {
+    @extend %flex-col;
+    @extend %col-right;
+}
+
+%flex-col-top {
+    @extend %flex-col;
+    @extend %col-top;
+}
+
+%flex-col-bottom {
+    @extend %flex-col;
+    @extend %col-bottom;
+}
+
+%flex-col-between,
+%flex-col-spread {
+    @extend %flex-col;
+    @extend %between;
+}
+
+%flex-col-around {
+    @extend %flex-col;
+    @extend %around;
+}
+
+%flex-col-evenly {
+    @extend %flex-col;
+    @extend %evenly;
+}
