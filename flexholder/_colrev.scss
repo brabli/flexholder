@@ -1,116 +1,116 @@
 @forward './base';
 
 %flex-colrev {
-    @extend %flex;
-    @extend %colrev;
-    @extend %row-centre;
-    @extend %col-centre;
+    @extend %fh_flex;
+    @extend %fh_colrev;
+    @extend %fh_row-centre;
+    @extend %fh_col-centre;
 }
 
 %flex-colrev-left {
     @extend %flex-colrev;
-    @extend %col-left;
+    @extend %fh_col-left;
 }
 
 %flex-colrev-right {
     @extend %flex-colrev;
-    @extend %col-right;
+    @extend %fh_col-right;
 }
 
 %flex-colrev-top {
     @extend %flex-colrev;
-    @extend %colrev-top;
+    @extend %fh_colrev-top;
 }
 
 %flex-colrev-bottom {
     @extend %flex-colrev;
-    @extend %colrev-bottom;
+    @extend %fh_colrev-bottom;
 }
 
 %flex-colrev-spread,
 %flex-colrev-between {
     @extend %flex-colrev;
-    @extend %spread;
+    @extend %fh_spread;
 }
 
 %flex-colrev-gap,
 %flex-colrev-around {
     @extend %flex-colrev;
-    @extend %gap;
+    @extend %fh_gap;
 }
 
 %flex-colrev-even,
 %flex-colrev-evenly {
     @extend %flex-colrev;
-    @extend %even;
+    @extend %fh_even;
 }
 
 %flex-colrev-baseline {
     @extend %flex-colrev;
-    @extend %baseline;
+    @extend %fh_baseline;
 }
 
 %flex-colrev-stretch {
     @extend %flex-colrev;
-    @extend %stretch;
+    @extend %fh_stretch;
 }
 
 // Col Top
 %flex-colrev-top-left,
 %flex-colrev-left-top {
     @extend %flex-colrev;
-    @extend %col-left;
-    @extend %colrev-top;
+    @extend %fh_col-left;
+    @extend %fh_colrev-top;
 }
 
 %flex-colrev-top-right,
 %flex-colrev-right-top {
     @extend %flex-colrev;
-    @extend %col-right;
-    @extend %colrev-top;
+    @extend %fh_col-right;
+    @extend %fh_colrev-top;
 }
 
 %flex-colrev-top-baseline,
 %flex-colrev-baseline-top {
     @extend %flex-colrev;
-    @extend %baseline;
-    @extend %colrev-top;
+    @extend %fh_baseline;
+    @extend %fh_colrev-top;
 }
 
 %flex-colrev-top-stretch,
 %flex-colrev-stretch-top {
     @extend %flex-colrev;
-    @extend %stretch;
-    @extend %colrev-top;
+    @extend %fh_stretch;
+    @extend %fh_colrev-top;
 }
 
 // Col Bottom
 %flex-colrev-bottom-left,
 %flex-colrev-left-bottom {
     @extend %flex-colrev;
-    @extend %col-left;
-    @extend %colrev-bottom;
+    @extend %fh_col-left;
+    @extend %fh_colrev-bottom;
 }
 
 %flex-colrev-bottom-right,
 %flex-colrev-right-bottom {
     @extend %flex-colrev;
-    @extend %col-right;
-    @extend %colrev-bottom;
+    @extend %fh_col-right;
+    @extend %fh_colrev-bottom;
 }
 
 %flex-colrev-bottom-baseline,
 %flex-colrev-baseline-bottom {
     @extend %flex-colrev;
-    @extend %baseline;
-    @extend %colrev-bottom;
+    @extend %fh_baseline;
+    @extend %fh_colrev-bottom;
 }
 
 %flex-colrev-bottom-stretch,
 %flex-colrev-stretch-bottom {
     @extend %flex-colrev;
-    @extend %stretch;
-    @extend %colrev-bottom;
+    @extend %fh_stretch;
+    @extend %fh_colrev-bottom;
 }
 
 // Col Between / Spread
@@ -119,8 +119,8 @@
 %flex-colrev-between-left,
 %flex-colrev-left-between {
     @extend %flex-colrev;
-    @extend %col-left;
-    @extend %spread;
+    @extend %fh_col-left;
+    @extend %fh_spread;
 }
 
 %flex-colrev-spread-right,
@@ -128,8 +128,8 @@
 %flex-colrev-between-right,
 %flex-colrev-right-between {
     @extend %flex-colrev;
-    @extend %col-right;
-    @extend %spread;
+    @extend %fh_col-right;
+    @extend %fh_spread;
 }
 
 %flex-colrev-spread-baseline,
@@ -137,8 +137,8 @@
 %flex-colrev-between-baseline,
 %flex-colrev-baseline-between {
     @extend %flex-colrev;
-    @extend %baseline;
-    @extend %spread;
+    @extend %fh_baseline;
+    @extend %fh_spread;
 }
 
 %flex-colrev-spread-stretch,
@@ -146,8 +146,8 @@
 %flex-colrev-between-stretch,
 %flex-colrev-stretch-between {
     @extend %flex-colrev;
-    @extend %stretch;
-    @extend %spread;
+    @extend %fh_stretch;
+    @extend %fh_spread;
 }
 
 // Col Around / Gap
@@ -156,8 +156,8 @@
 %flex-colrev-around-left,
 %flex-colrev-left-around {
     @extend %flex-colrev;
-    @extend %col-left;
-    @extend %gap;
+    @extend %fh_col-left;
+    @extend %fh_gap;
 }
 
 %flex-colrev-gap-right,
@@ -165,8 +165,8 @@
 %flex-colrev-around-right,
 %flex-colrev-right-around {
     @extend %flex-colrev;
-    @extend %col-right;
-    @extend %gap;
+    @extend %fh_col-right;
+    @extend %fh_gap;
 }
 
 %flex-colrev-gap-baseline,
@@ -174,8 +174,8 @@
 %flex-colrev-around-baseline,
 %flex-colrev-baseline-around {
     @extend %flex-colrev;
-    @extend %baseline;
-    @extend %gap;
+    @extend %fh_baseline;
+    @extend %fh_gap;
 }
 
 %flex-colrev-gap-stretch,
@@ -183,8 +183,8 @@
 %flex-colrev-around-stretch,
 %flex-colrev-stretch-around {
     @extend %flex-colrev;
-    @extend %stretch;
-    @extend %gap;
+    @extend %fh_stretch;
+    @extend %fh_gap;
 }
 
 // Col Evenly / Even
@@ -193,8 +193,8 @@
 %flex-colrev-evenly-left,
 %flex-colrev-left-evenly {
     @extend %flex-colrev;
-    @extend %col-left;
-    @extend %even;
+    @extend %fh_col-left;
+    @extend %fh_even;
 }
 
 %flex-colrev-even-right,
@@ -202,8 +202,8 @@
 %flex-colrev-evenly-right,
 %flex-colrev-right-evenly {
     @extend %flex-colrev;
-    @extend %col-right;
-    @extend %even;
+    @extend %fh_col-right;
+    @extend %fh_even;
 }
 
 %flex-colrev-even-baseline,
@@ -211,8 +211,8 @@
 %flex-colrev-evenly-baseline,
 %flex-colrev-baseline-evenly {
     @extend %flex-colrev;
-    @extend %baseline;
-    @extend %even;
+    @extend %fh_baseline;
+    @extend %fh_even;
 }
 
 %flex-colrev-even-stretch,
@@ -220,6 +220,6 @@
 %flex-colrev-evenly-stretch,
 %flex-colrev-stretch-evenly {
     @extend %flex-colrev;
-    @extend %stretch;
-    @extend %even;
+    @extend %fh_stretch;
+    @extend %fh_even;
 }

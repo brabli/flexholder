@@ -1,58 +1,58 @@
 @forward './base';
 
 %flex-rowrev {
-    @extend %flex;
-    @extend %rowrev;
-    @extend %row-centre;
-    @extend %col-centre;
+    @extend %fh_flex;
+    @extend %fh_rowrev;
+    @extend %fh_row-centre;
+    @extend %fh_col-centre;
 }
 
 %flex-rowrev-left {
     @extend %flex-rowrev;
-    @extend %rowrev-left;
+    @extend %fh_rowrev-left;
 }
 
 %flex-rowrev-right {
     @extend %flex-rowrev;
-    @extend %rowrev-right;
+    @extend %fh_rowrev-right;
 }
 
 %flex-rowrev-top {
     @extend %flex-rowrev;
-    @extend %row-top;
+    @extend %fh_row-top;
 }
 
 %flex-rowrev-bottom {
     @extend %flex-rowrev;
-    @extend %row-bottom;
+    @extend %fh_row-bottom;
 }
 
 %flex-rowrev-spread,
 %flex-rowrev-between {
     @extend %flex-rowrev;
-    @extend %between;
+    @extend %fh_spread;
 }
 
 %flex-rowrev-gap,
 %flex-rowrev-around {
     @extend %flex-rowrev;
-    @extend %around;
+    @extend %fh_gap;
 }
 
 %flex-rowrev-even,
 %flex-rowrev-evenly {
     @extend %flex-rowrev;
-    @extend %evenly;
+    @extend %fh_even;
 }
 
 %flex-rowrev-baseline {
     @extend %flex-rowrev;
-    @extend %baseline;
+    @extend %fh_baseline;
 }
 
 %flex-rowrev-stretch {
     @extend %flex-rowrev;
-    @extend %stretch;
+    @extend %fh_stretch;
 }
 
 // Combos
@@ -61,58 +61,58 @@
 %flex-rowrev-left-top,
 %flex-rowrev-top-left {
     @extend %flex-rowrev;
-    @extend %rowrev-left;
-    @extend %row-top;
+    @extend %fh_rowrev-left;
+    @extend %fh_row-top;
 }
 
 %flex-rowrev-left-bottom,
 %flex-rowrev-bottom-left {
     @extend %flex-rowrev;
-    @extend %rowrev-left;
-    @extend %row-bottom;
+    @extend %fh_rowrev-left;
+    @extend %fh_row-bottom;
 }
 
 %flex-rowrev-left-baseline,
 %flex-rowrev-baseline-left {
     @extend %flex-rowrev;
-    @extend %rowrev-left;
-    @extend %baseline;
+    @extend %fh_rowrev-left;
+    @extend %fh_baseline;
 }
 
 %flex-rowrev-left-stretch,
 %flex-rowrev-stretch-left {
     @extend %flex-rowrev;
-    @extend %rowrev-left;
-    @extend %stretch;
+    @extend %fh_rowrev-left;
+    @extend %fh_stretch;
 }
 
 // Rowrev Right
 %flex-rowrev-right-top,
 %flex-rowrev-top-right {
     @extend %flex-rowrev;
-    @extend %rowrev-right;
-    @extend %row-top;
+    @extend %fh_rowrev-right;
+    @extend %fh_row-top;
 }
 
 %flex-rowrev-right-bottom,
 %flex-rowrev-bottom-right {
     @extend %flex-rowrev;
-    @extend %rowrev-right;
-    @extend %row-bottom;
+    @extend %fh_rowrev-right;
+    @extend %fh_row-bottom;
 }
 
 %flex-rowrev-right-baseline,
 %flex-rowrev-baseline-right {
     @extend %flex-rowrev;
-    @extend %rowrev-right;
-    @extend %baseline;
+    @extend %fh_rowrev-right;
+    @extend %fh_baseline;
 }
 
 %flex-rowrev-right-stretch,
 %flex-rowrev-stretch-right {
     @extend %flex-rowrev;
-    @extend %rowrev-right;
-    @extend %stretch;
+    @extend %fh_rowrev-right;
+    @extend %fh_stretch;
 }
 
 // Rowrev Between / Spread
@@ -121,8 +121,8 @@
 %flex-rowrev-between-top,
 %flex-rowrev-top-between {
     @extend %flex-rowrev;
-    @extend %spread;
-    @extend %row-top;
+    @extend %fh_spread;
+    @extend %fh_row-top;
 }
 
 %flex-rowrev-spread-bottom,
@@ -130,8 +130,8 @@
 %flex-rowrev-between-bottom,
 %flex-rowrev-bottom-between {
     @extend %flex-rowrev;
-    @extend %spread;
-    @extend %row-bottom;
+    @extend %fh_spread;
+    @extend %fh_row-bottom;
 }
 
 %flex-rowrev-spread-baseline,
@@ -139,8 +139,8 @@
 %flex-rowrev-between-baseline,
 %flex-rowrev-baseline-between {
     @extend %flex-rowrev;
-    @extend %spread;
-    @extend %baseline;
+    @extend %fh_spread;
+    @extend %fh_baseline;
 }
 
 %flex-rowrev-spread-stretch,
@@ -148,8 +148,8 @@
 %flex-rowrev-between-stretch,
 %flex-rowrev-stretch-between {
     @extend %flex-rowrev;
-    @extend %spread;
-    @extend %stretch;
+    @extend %fh_spread;
+    @extend %fh_stretch;
 }
 
 // Rowrev Around / Gap
@@ -158,8 +158,8 @@
 %flex-rowrev-around-top,
 %flex-rowrev-top-around {
     @extend %flex-rowrev;
-    @extend %gap;
-    @extend %row-top;
+    @extend %fh_gap;
+    @extend %fh_row-top;
 }
 
 %flex-rowrev-gap-bottom,
@@ -167,8 +167,8 @@
 %flex-rowrev-around-bottom,
 %flex-rowrev-bottom-around {
     @extend %flex-rowrev;
-    @extend %gap;
-    @extend %row-bottom;
+    @extend %fh_gap;
+    @extend %fh_row-bottom;
 }
 
 %flex-rowrev-gap-baseline,
@@ -176,8 +176,8 @@
 %flex-rowrev-around-baseline,
 %flex-rowrev-baseline-around {
     @extend %flex-rowrev;
-    @extend %gap;
-    @extend %baseline;
+    @extend %fh_gap;
+    @extend %fh_baseline;
 }
 
 %flex-rowrev-gap-stretch,
@@ -185,8 +185,8 @@
 %flex-rowrev-around-stretch,
 %flex-rowrev-stretch-around {
     @extend %flex-rowrev;
-    @extend %gap;
-    @extend %stretch;
+    @extend %fh_gap;
+    @extend %fh_stretch;
 }
 
 // Rowrev Evenly / Even
@@ -195,8 +195,8 @@
 %flex-rowrev-evenly-top,
 %flex-rowrev-top-evenly {
     @extend %flex-rowrev;
-    @extend %even;
-    @extend %row-top;
+    @extend %fh_even;
+    @extend %fh_row-top;
 }
 
 %flex-rowrev-even-bottom,
@@ -204,8 +204,8 @@
 %flex-rowrev-evenly-bottom,
 %flex-rowrev-bottom-evenly {
     @extend %flex-rowrev;
-    @extend %even;
-    @extend %row-bottom;
+    @extend %fh_even;
+    @extend %fh_row-bottom;
 }
 
 %flex-rowrev-even-baseline,
@@ -213,8 +213,8 @@
 %flex-rowrev-evenly-baseline,
 %flex-rowrev-baseline-evenly {
     @extend %flex-rowrev;
-    @extend %even;
-    @extend %baseline;
+    @extend %fh_even;
+    @extend %fh_baseline;
 }
 
 %flex-rowrev-even-stretch,
@@ -222,6 +222,6 @@
 %flex-rowrev-evenly-stretch,
 %flex-rowrev-stretch-evenly {
     @extend %flex-rowrev;
-    @extend %even;
-    @extend %stretch;
+    @extend %fh_even;
+    @extend %fh_stretch;
 }

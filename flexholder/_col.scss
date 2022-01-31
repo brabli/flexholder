@@ -1,116 +1,116 @@
 @forward './base';
 
 %flex-col {
-    @extend %flex;
-    @extend %col;
-    @extend %row-centre;
-    @extend %col-centre;
+    @extend %fh_flex;
+    @extend %fh_col;
+    @extend %fh_row-centre;
+    @extend %fh_col-centre;
 }
 
 %flex-col-left {
     @extend %flex-col;
-    @extend %col-left;
+    @extend %fh_col-left;
 }
 
 %flex-col-right {
     @extend %flex-col;
-    @extend %col-right;
+    @extend %fh_col-right;
 }
 
 %flex-col-top {
     @extend %flex-col;
-    @extend %col-top;
+    @extend %fh_col-top;
 }
 
 %flex-col-bottom {
     @extend %flex-col;
-    @extend %col-bottom;
+    @extend %fh_col-bottom;
 }
 
 %flex-col-spread,
 %flex-col-between {
     @extend %flex-col;
-    @extend %spread;
+    @extend %fh_spread;
 }
 
 %flex-col-gap,
 %flex-col-around {
     @extend %flex-col;
-    @extend %gap;
+    @extend %fh_gap;
 }
 
 %flex-col-even,
 %flex-col-evenly {
     @extend %flex-col;
-    @extend %even;
+    @extend %fh_even;
 }
 
 %flex-col-baseline {
     @extend %flex-col;
-    @extend %baseline;
+    @extend %fh_baseline;
 }
 
 %flex-col-stretch {
     @extend %flex-col;
-    @extend %stretch;
+    @extend %fh_stretch;
 }
 
 // Col Top
 %flex-col-top-left,
 %flex-col-left-top {
     @extend %flex-col;
-    @extend %col-left;
-    @extend %col-top;
+    @extend %fh_col-left;
+    @extend %fh_col-top;
 }
 
 %flex-col-top-right,
 %flex-col-right-top {
     @extend %flex-col;
-    @extend %col-right;
-    @extend %col-top;
+    @extend %fh_col-right;
+    @extend %fh_col-top;
 }
 
 %flex-col-top-baseline,
 %flex-col-baseline-top {
     @extend %flex-col;
-    @extend %baseline;
-    @extend %col-top;
+    @extend %fh_baseline;
+    @extend %fh_col-top;
 }
 
 %flex-col-top-stretch,
 %flex-col-stretch-top {
     @extend %flex-col;
-    @extend %stretch;
-    @extend %col-top;
+    @extend %fh_stretch;
+    @extend %fh_col-top;
 }
 
 // Col Bottom
 %flex-col-bottom-left,
 %flex-col-left-bottom {
     @extend %flex-col;
-    @extend %col-left;
-    @extend %col-bottom;
+    @extend %fh_col-left;
+    @extend %fh_col-bottom;
 }
 
 %flex-col-bottom-right,
 %flex-col-right-bottom {
     @extend %flex-col;
-    @extend %col-right;
-    @extend %col-bottom;
+    @extend %fh_col-right;
+    @extend %fh_col-bottom;
 }
 
 %flex-col-bottom-baseline,
 %flex-col-baseline-bottom {
     @extend %flex-col;
-    @extend %baseline;
-    @extend %col-bottom;
+    @extend %fh_baseline;
+    @extend %fh_col-bottom;
 }
 
 %flex-col-bottom-stretch,
 %flex-col-stretch-bottom {
     @extend %flex-col;
-    @extend %stretch;
-    @extend %col-bottom;
+    @extend %fh_stretch;
+    @extend %fh_col-bottom;
 }
 
 // Col Between / Spread
@@ -119,8 +119,8 @@
 %flex-col-between-left,
 %flex-col-left-between {
     @extend %flex-col;
-    @extend %col-left;
-    @extend %spread;
+    @extend %fh_col-left;
+    @extend %fh_spread;
 }
 
 %flex-col-spread-right,
@@ -128,8 +128,8 @@
 %flex-col-between-right,
 %flex-col-right-between {
     @extend %flex-col;
-    @extend %col-right;
-    @extend %spread;
+    @extend %fh_col-right;
+    @extend %fh_spread;
 }
 
 %flex-col-spread-baseline,
@@ -137,8 +137,8 @@
 %flex-col-between-baseline,
 %flex-col-baseline-between {
     @extend %flex-col;
-    @extend %baseline;
-    @extend %spread;
+    @extend %fh_baseline;
+    @extend %fh_spread;
 }
 
 %flex-col-spread-stretch,
@@ -146,8 +146,8 @@
 %flex-col-between-stretch,
 %flex-col-stretch-between {
     @extend %flex-col;
-    @extend %stretch;
-    @extend %spread;
+    @extend %fh_stretch;
+    @extend %fh_spread;
 }
 
 // Col Around / Gap
@@ -156,8 +156,8 @@
 %flex-col-around-left,
 %flex-col-left-around {
     @extend %flex-col;
-    @extend %col-left;
-    @extend %gap;
+    @extend %fh_col-left;
+    @extend %fh_gap;
 }
 
 %flex-col-gap-right,
@@ -165,8 +165,8 @@
 %flex-col-around-right,
 %flex-col-right-around {
     @extend %flex-col;
-    @extend %col-right;
-    @extend %gap;
+    @extend %fh_col-right;
+    @extend %fh_gap;
 }
 
 %flex-col-gap-baseline,
@@ -174,8 +174,8 @@
 %flex-col-around-baseline,
 %flex-col-baseline-around {
     @extend %flex-col;
-    @extend %baseline;
-    @extend %gap;
+    @extend %fh_baseline;
+    @extend %fh_gap;
 }
 
 %flex-col-gap-stretch,
@@ -183,8 +183,8 @@
 %flex-col-around-stretch,
 %flex-col-stretch-around {
     @extend %flex-col;
-    @extend %stretch;
-    @extend %gap;
+    @extend %fh_stretch;
+    @extend %fh_gap;
 }
 
 // Col Evenly / Even
@@ -193,8 +193,8 @@
 %flex-col-evenly-left,
 %flex-col-left-evenly {
     @extend %flex-col;
-    @extend %col-left;
-    @extend %even;
+    @extend %fh_col-left;
+    @extend %fh_even;
 }
 
 %flex-col-even-right,
@@ -202,8 +202,8 @@
 %flex-col-evenly-right,
 %flex-col-right-evenly {
     @extend %flex-col;
-    @extend %col-right;
-    @extend %even;
+    @extend %fh_col-right;
+    @extend %fh_even;
 }
 
 %flex-col-even-baseline,
@@ -211,8 +211,8 @@
 %flex-col-evenly-baseline,
 %flex-col-baseline-evenly {
     @extend %flex-col;
-    @extend %baseline;
-    @extend %even;
+    @extend %fh_baseline;
+    @extend %fh_even;
 }
 
 %flex-col-even-stretch,
@@ -220,6 +220,6 @@
 %flex-col-evenly-stretch,
 %flex-col-stretch-evenly {
     @extend %flex-col;
-    @extend %stretch;
-    @extend %even;
+    @extend %fh_stretch;
+    @extend %fh_even;
 }

@@ -2,34 +2,34 @@
     BASE PLACEHOLDERS
 */
 
-%flex                  { display: flex }
+%fh_flex                  { display: flex }
 
-%row                   { flex-direction: row }
-%col                   { flex-direction: column }
-%rowrev                { flex-direction: row-reverse }
-%colrev                { flex-direction: column-reverse }
+%fh_row                   { flex-direction: row }
+%fh_col                   { flex-direction: column }
+%fh_rowrev                { flex-direction: row-reverse }
+%fh_colrev                { flex-direction: column-reverse }
 
-%row-centre            { justify-content: center }
-%col-centre            { align-items: center }
+%fh_row-centre            { justify-content: center }
+%fh_col-centre            { align-items: center }
 
-%row-top,
-%col-left              { align-items: flex-start }
+%fh_row-top,
+%fh_col-left              { align-items: flex-start }
 
-%row-bottom,
-%col-right             { align-items: flex-end }
+%fh_row-bottom,
+%fh_col-right             { align-items: flex-end }
 
-%row-left,
-%rowrev-right,
-%col-top,
-%colrev-bottom         { justify-content: flex-start }
+%fh_row-left,
+%fh_rowrev-right,
+%fh_col-top,
+%fh_colrev-bottom         { justify-content: flex-start }
 
-%row-right,
-%rowrev-left,
-%col-bottom,
-%colrev-top            { justify-content: flex-end }
+%fh_row-right,
+%fh_rowrev-left,
+%fh_col-bottom,
+%fh_colrev-top            { justify-content: flex-end }
 
-%between, %spread      { justify-content: space-between }
-%around,  %gap         { justify-content: space-around }
-%evenly,  %even        { justify-content: space-evenly }
-%baseline              { align-items: baseline }
-%stretch               { align-items: stretch; }
+%fh_between, %fh_spread   { justify-content: space-between }
+%fh_around,  %fh_gap      { justify-content: space-around }
+%fh_evenly,  %fh_even     { justify-content: space-evenly }
+%fh_baseline              { align-items: baseline }
+%fh_stretch               { align-items: stretch; }
