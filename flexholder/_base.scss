@@ -1,6 +1,7 @@
 /*
     BASE PLACEHOLDERS
 */
+
 %flex                  { display: flex }
 
 %row                   { flex-direction: row }
@@ -8,37 +9,25 @@
 %rowrev                { flex-direction: row-reverse }
 %colrev                { flex-direction: column-reverse }
 
-// Defaults at top of file to prevent overriding issues
 %row-centre            { justify-content: center }
 %col-centre            { align-items: center }
 
-/*
-    ROWS
-*/
-// Applies to both row and rowrev
-%row-top               { align-items: flex-start }
-%row-bottom            { align-items: flex-end }
-// row specific
-%row-left              { justify-content: flex-start }
-%row-right             { justify-content: flex-end }
-// rowrev specific
-%rowrev-left           { justify-content: flex-end }
-%rowrev-right          { justify-content: flex-start }
-
-/*
-    COLS
-*/
-// Applies to both col and colrev
+%row-top,
 %col-left              { align-items: flex-start }
+
+%row-bottom,
 %col-right             { align-items: flex-end }
-// col specific
-%col-top               { justify-content: flex-start }
-%col-bottom            { justify-content: flex-end }
-// colrev specific
-%colrev-top            { justify-content: flex-end }
+
+%row-left,
+%rowrev-right,
+%col-top,
 %colrev-bottom         { justify-content: flex-start }
 
-// Others
+%row-right,
+%rowrev-left,
+%col-bottom,
+%colrev-top            { justify-content: flex-end }
+
 %between, %spread      { justify-content: space-between }
 %around,  %gap         { justify-content: space-around }
 %evenly,  %even        { justify-content: space-evenly }
