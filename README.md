@@ -4,9 +4,13 @@
 
 ## What is flexholder?
 
-Flexholder is a placeholder library for SCSS designed to speed up writing boilerplate flexbox code when creating flex containers.
+Flexholder is a placeholder library I created for SCSS designed to speed up writing boilerplate flexbox container code.
+
+I never actually got to use it in production as I discovered Tailwind shortly after finishing it and immediately fell in love, if you take a look at the example code for this library you can probably see why Tailwind appealed to me.
 
 It does this by greatly reducing the number of CSS lines it takes to create flex containers and does so in a more semantic way that is easier to read and understand. It also aims to generate less CSS by making great use of reusable placeholder classes.
+
+**UPDATE** While reducing the amount of code generated was the intention, if you are using lots of layered selectors (such as `.header .hero .textbox h1`) this library will end up generating lots more CSS that it would have otherwise as it will generate multiple long rules that are only used for one element! You live and learn.
 
 ### Plain CSS
 
